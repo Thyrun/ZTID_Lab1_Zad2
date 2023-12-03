@@ -1,8 +1,8 @@
 // dodałem warunek żeby zaczekał aż dom się załaduje
 window.addEventListener('load', function () {
-    // pobieranie elemetu formularza
+    // zapisywanie do zmiennej elemetu formularza
     const loginForm = document.getElementById("login-form");
-    // pobieranie przycisku logowania
+    // zapisywanie do zmiennej przycisku logowania
     const loginButton = document.getElementById("login-form-submit");
     // prawdopodobie kontener na wyświetlanie błędu ale nie ma go w html
     const loginErrorMsg = document.getElementById("login-error-msg");
